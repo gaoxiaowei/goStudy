@@ -1,9 +1,11 @@
 package main
 
-import {
+import (
+	github2 "helloworld/github"
 	"os"
-}
+)
 
 func main()  {
-	//github.SearchIssues(os.Args[1:])
+	github2.SearchIssues(os.Args[1:])
+
 }
